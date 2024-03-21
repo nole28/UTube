@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B27D1CDA2BA2071A00034C3A /* APIKeys.plist in Resources */ = {isa = PBXBuildFile; fileRef = B27D1CD92BA2071A00034C3A /* APIKeys.plist */; };
+		B27D1CDE2BA20CD500034C3A /* ConfigurationFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27D1CDD2BA20CD500034C3A /* ConfigurationFile.swift */; };
 		B2D678F62B93A5F2005FA20F /* UTubeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D678F52B93A5F2005FA20F /* UTubeApp.swift */; };
 		B2D678F82B93A5F2005FA20F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D678F72B93A5F2005FA20F /* ContentView.swift */; };
 		B2D678FA2B93A5F4005FA20F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2D678F92B93A5F4005FA20F /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B27D1CD92BA2071A00034C3A /* APIKeys.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = APIKeys.plist; sourceTree = "<group>"; };
+		B27D1CDD2BA20CD500034C3A /* ConfigurationFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurationFile.swift; sourceTree = "<group>"; };
 		B2D678F22B93A5F2005FA20F /* UTube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UTube.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2D678F52B93A5F2005FA20F /* UTubeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UTubeApp.swift; sourceTree = "<group>"; };
 		B2D678F72B93A5F2005FA20F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -35,6 +39,7 @@
 		B2D678E92B93A5F2005FA20F = {
 			isa = PBXGroup;
 			children = (
+				B27D1CD92BA2071A00034C3A /* APIKeys.plist */,
 				B2D678F42B93A5F2005FA20F /* UTube */,
 				B2D678F32B93A5F2005FA20F /* Products */,
 			);
@@ -52,6 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				B2D678F52B93A5F2005FA20F /* UTubeApp.swift */,
+				B27D1CDD2BA20CD500034C3A /* ConfigurationFile.swift */,
 				B2D678F72B93A5F2005FA20F /* ContentView.swift */,
 				B2D678F92B93A5F4005FA20F /* Assets.xcassets */,
 				B2D678FB2B93A5F4005FA20F /* Preview Content */,
@@ -125,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B27D1CDA2BA2071A00034C3A /* APIKeys.plist in Resources */,
 				B2D678FD2B93A5F4005FA20F /* Preview Assets.xcassets in Resources */,
 				B2D678FA2B93A5F4005FA20F /* Assets.xcassets in Resources */,
 			);
@@ -137,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B27D1CDE2BA20CD500034C3A /* ConfigurationFile.swift in Sources */,
 				B2D678F82B93A5F2005FA20F /* ContentView.swift in Sources */,
 				B2D678F62B93A5F2005FA20F /* UTubeApp.swift in Sources */,
 			);
